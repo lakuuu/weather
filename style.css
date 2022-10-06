@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdlYXRoZXJ8ZW58MHx8MHx8&w=1000&q=80);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#current{
+    text-align: center;
+    margin-top: 5vh;
+}
+#current h1{
+    font-size: 47px;
+}
+ h2{
+    margin-top: 1vh;
+    font-size: 30px;
+}
+#current p{
+    font-size: 25px;
+}
+#hourly{
+    display: flex;
+    overflow: scroll;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 25px;
+}
+.hour{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#daily{
+    margin-top: 5vh;
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 40vh;
+    overflow: scroll;
+}
+.dailychat{
+    display: flex;
+    justify-content: space-evenly   ;
+    margin-top: 2vh;
+    font-size: 20px;
+    color: aqua;
+}
+#daily img{
+    width: 20%;
+    margin-top: -25px;
+}
+.dailychat h3{
+    color: rgb(173, 171, 171);
+}
+#max{
+    color: white;
+}
+#current h1, h2, #timezone{
+    font-size: revert;
+    font-style: italic;
+    color: black;
+}
